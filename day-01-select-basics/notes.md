@@ -1,21 +1,8 @@
-# 🐍 SQL Beast Journey – 21 Days to Pro
+# Day 1: SELECT, WHERE, DISTINCT, ORDER BY, LIMIT
 
-I'm transforming from SQL beginner to interview‑ready analyst in 21 days, one focused hour per day. This repository documents every query, every concept, and every project, all built on real‑world datasets.
-
-## 📅 Roadmap
-| Week | Focus |
-|------|-------|
-| 1 | Foundations: SELECT, JOINs, Aggregation, Subqueries, CTEs, DDL |
-| 2 | Intermediate: Window functions, data cleaning, views, indexes, procedures |
-| 3 | Pro: Performance tuning, normalization, analytics, interview prep, final project |
-
-## 🧰 Tech Stack
-- PostgreSQL (with pgAdmin / psql)
-- SQLite (for quick practice)
-- Chinook & e‑commerce custom data
-
-## 🏆 Final Project
-An end‑to‑end e‑commerce analytics schema with retention cohorts and revenue reporting – see `/projects/ecommerce-analytics`.
-
-## 📝 Daily Log
-Each day has its own folder with notes, practice queries, and an interview question.
+- `SELECT column1, column2 FROM table;`
+- `WHERE` filters rows (AND, OR, parentheses)
+- `DISTINCT` removes duplicates
+- `ORDER BY` ascending (ASC) or descending (DESC)
+- `LIMIT n` caps rows (PostgreSQL/MySQL/SQLite)
+- Real‑world thinking: “Marketing needs unique customer cities in the USA, sorted A‑Z.”
