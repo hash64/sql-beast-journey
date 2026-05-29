@@ -72,4 +72,4 @@ ORDER BY TrackCount DESC
 SELECT ii.invoiceid, t.name as TrackName, ii.unitprice
 FROM InvoiceLine ii
 INNER JOIN Track t on ii.TrackId=t.TrackId
-LIMIT 20
+LIMIT 20 -- 20 makes the limit to restrictions of 20 count
